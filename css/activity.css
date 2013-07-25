@@ -38,6 +38,14 @@
 	background-image: url(../activity/code.svg);
 }
 
+#wmd-quote-button{
+	background-image: url(../activity/quote.svg);
+}
+
+#wmd-link-button{
+	background-image: url(../activity/link.svg);
+}
+
 body 
 { 
 	background-color: White;
@@ -55,8 +63,8 @@ blockquote {
 	width: 48%;
 	min-width: 500px;
 	float: left;
-	margin-left: 1%;
-	margin-top: 1%;
+	margin-left: 21px;
+	margin-top: 11px;
 	
 }
 
@@ -68,10 +76,10 @@ blockquote {
 
 .wmd-input 
 { 
-	height: 635px;
+	height: 670px;
 	width: 100%;
 	background-color: Gainsboro;
-	border: 1px solid DarkGray;
+	border: 3px groove black;
 	padding: 3px;
 
 }
@@ -80,23 +88,16 @@ blockquote {
 { 
 	background-color: white;
 	color: black;
+	height: 670px;
+	padding: 3px;
 	width: 48%;
-	height: 90%;
+	float: right;
 	margin-right: 1%;
 	margin-top: 1%;
-	padding: 3px;
-	float: right;
-}
-
-.wmd-button-row 
-{
-	position: relative; 
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-top: 10px;
-	padding: 0px;  
-	height: 20px;
+	overflow: auto;
+	border-top: 3px groove black;
+	border-right: 3px groove black;
+	border-bottom: 3px groove black;
 }
 
 .wmd-prompt-background
