@@ -26,6 +26,18 @@
 	background-image: url(../activity/horizontal-line3.svg);
 }
 
+#wmd-ulist-button{
+	background-image: url(../activity/toolbar-bulletlist.svg);
+}
+
+#wmd-olist-button{
+	background-image: url(../activity/toolbar-numbered-list.svg);
+}
+
+#wmd-code-button{
+	background-image: url(../activity/code.svg);
+}
+
 body 
 { 
 	background-color: White;
