@@ -10,12 +10,20 @@
 	background-image: url(../activity/format-text-italic.svg);
 }
 
+#wmd-heading-button{
+	background-image: url(../activity/paragraph-h1.svg);
+}
+
 #wmd-undo-button{
 	background-image: url(../activity/edit-undo.svg);
 }
 
 #wmd-redo-button{
 	background-image: url(../activity/edit-redo.svg);
+}
+
+#wmd-hr-button{
+	background-image: url(../activity/horizontal-line3.svg);
 }
 
 body 
@@ -77,18 +85,6 @@ blockquote {
 	margin-top: 10px;
 	padding: 0px;  
 	height: 20px;
-}
-
-.wmd-spacer
-{
-	width: 1px; 
-	height: 20px; 
-	margin-left: 14px;
-	
-	position: absolute;
-	background-color: Silver;
-	display: inline-block; 
-	list-style: none;
 }
 
 .wmd-prompt-background
