@@ -61,11 +61,10 @@ blockquote {
 .wmd-panel
 {
 	width: 48%;
-	min-width: 500px;
 	float: left;
-	margin-left: 18px;
-	margin-top: 12px;
-	
+	margin-left: .8%;
+	margin-top: 1%;
+	height: 600px;
 }
 
 .wmd-button-bar 
@@ -76,28 +75,24 @@ blockquote {
 
 .wmd-input 
 { 
-	height: 670px;
+	height: 100%;
 	width: 100%;
 	background-color: Gainsboro;
-	border: 3px groove black;
-	padding: 3px;
-
+	border: 2px groove black;
 }
 
 .wmd-preview 
 { 
 	background-color: white;
+	position: relative;
+	right: -2%;
 	color: black;
-	height: 670px;
+	height: 599px;
 	padding: 3px;
 	width: 48%;
-	float: right;
-	margin-right: 1%;
-	margin-top: 1%;
+	margin-top: 1.2%;
 	overflow: auto;
-	border-top: 3px groove black;
-	border-right: 3px groove black;
-	border-bottom: 3px groove black;
+	border: 2px groove black;
 }
 
 .wmd-prompt-background
